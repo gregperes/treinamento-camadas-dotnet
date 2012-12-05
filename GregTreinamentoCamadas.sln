@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. UI", "1. UI", "{9D5C10E1-A0B4-46F6-87E6-18F864490EAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Entidade", "2. Entidade", "{F6940A56-C932-4EA1-9684-6F570DD3EAA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Business", "3. Business", "{7D078C83-D89A-4768-BBB5-92D9A0085717}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Persistencia", "4. Persistencia", "{FDE731CA-EDCB-48FB-9779-090028E80B4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GregTreinamentoCamadas.Persistencia", "GregTreinamentoCamadas.Persistencia\GregTreinamentoCamadas.Persistencia.csproj", "{4F4D0FE8-51B7-4414-AEA0-DFC0433A247D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GregTreinamentoCamadas.Business", "GregTreinamentoCamadas.Business\GregTreinamentoCamadas.Business.csproj", "{3D2659FB-BA93-4A0D-8C90-E0BC01742664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GregTreinamentoCamadas.Entidade", "GregTreinamentoCamadas.Entidade\GregTreinamentoCamadas.Entidade.csproj", "{19B4EE65-7F0C-4492-BCB6-13A1FE58CEA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GregTreinamentoCamadas.Web", "GregTreinamentoCamadas.Web\GregTreinamentoCamadas.Web.csproj", "{38898770-6009-4B44-AE71-7C8525C1EC33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F4D0FE8-51B7-4414-AEA0-DFC0433A247D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F4D0FE8-51B7-4414-AEA0-DFC0433A247D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F4D0FE8-51B7-4414-AEA0-DFC0433A247D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F4D0FE8-51B7-4414-AEA0-DFC0433A247D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2659FB-BA93-4A0D-8C90-E0BC01742664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2659FB-BA93-4A0D-8C90-E0BC01742664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2659FB-BA93-4A0D-8C90-E0BC01742664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2659FB-BA93-4A0D-8C90-E0BC01742664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B4EE65-7F0C-4492-BCB6-13A1FE58CEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B4EE65-7F0C-4492-BCB6-13A1FE58CEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B4EE65-7F0C-4492-BCB6-13A1FE58CEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B4EE65-7F0C-4492-BCB6-13A1FE58CEA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38898770-6009-4B44-AE71-7C8525C1EC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38898770-6009-4B44-AE71-7C8525C1EC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38898770-6009-4B44-AE71-7C8525C1EC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38898770-6009-4B44-AE71-7C8525C1EC33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{38898770-6009-4B44-AE71-7C8525C1EC33} = {9D5C10E1-A0B4-46F6-87E6-18F864490EAF}
+		{19B4EE65-7F0C-4492-BCB6-13A1FE58CEA4} = {F6940A56-C932-4EA1-9684-6F570DD3EAA1}
+		{3D2659FB-BA93-4A0D-8C90-E0BC01742664} = {7D078C83-D89A-4768-BBB5-92D9A0085717}
+		{4F4D0FE8-51B7-4414-AEA0-DFC0433A247D} = {FDE731CA-EDCB-48FB-9779-090028E80B4D}
+	EndGlobalSection
+EndGlobal
